@@ -96,7 +96,7 @@ var serverstub = (function() {
           return {"success": false, "message": "No such user."};
         }
       } else {
-        return {"success": false, "message": "You are not signed in."};
+        return {"success": false, "message": "You are not signed in."}; 
       }
     },
 

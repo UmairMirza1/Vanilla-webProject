@@ -1,0 +1,50 @@
+.heading{
+
+font-size: large;
+font-weight: bold;
+
+}
+.center{
+   /* border: 5px solid #FFFF00;*/
+    text-align: center;
+    
+}
+
+body{
+    /* color:rgb(75, 137, 173); */
+    background-image: linear-gradient(69deg, rgba(5, 39, 114, 0), rgb(0, 21, 46));
+}
+.vertical{
+
+    margin: auto;
+    width: auto;
+    border: 3px solid rgb(0, 0, 0);
+    padding: 10px;
+}
+
+.maindiv{
+
+
+display: flex;
+flex-direction: row;
+flex-basis: content;
+justify-content: center;
+align-items: center;
+margin: 10px;
+}
+
+.login-container{
+    flex:1
+   
+
+}
+.signup-container{
+
+    flex:2;
+}
+.secondarybox{
+
+    display:flex;
+    flex-direction: column;
+
+}
