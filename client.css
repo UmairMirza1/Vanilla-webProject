@@ -94,25 +94,63 @@ nav{
             background-color: #34495e ;
             color: black;
             padding: 6px;
-            justify-content: center;
+           
             
 }
-li{
-    display: inline;
+nav li{
+    display: inline-block;
     color: black;
     text-decoration: none;
+    font-size: large;
+    color: cyan;
+}
+nav ul{
+
+    float: right;
+   
+    margin-right: 40px;
+    
+
+}
+nav a {
+    color: aliceblue;
+    font-size: 20px;
+    text-transform: uppercase;
+    border : 1px solid transparent;
+    padding : 7px 10px;
+    border-radius : 3px;
 }
 .Tabs{
 
-    color: chartreuse;
+    
     font-size: large;
 }
 *{
 
     list-style: none;
+    padding:0;
+    margin:0;
+    text-decoration: none;
 }
 label.logo{
-    
-poseido ---
+
+font-size: 35px;
+font-weight: bold;
+color:white;
+padding: 0 100px;
+line-height: 80px;
 
 }
+
+.MainDisplay{
+
+display: block;
+margin:auto;
+width: 1200px;
+height: 700px;
+background-color:#040c777e;
+color: white;
+
+
+}
+

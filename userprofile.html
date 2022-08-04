@@ -1,46 +1,53 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <script src=" client.js" type=" text/javascript "></script>
-    <script src=" serverstub.js" type="text/javascript"></script>
-    <link href="client.css" type="text/css" rel="stylesheet">
-    <title> HomePage</title>
-</head>
-<body>
+    <!DOCTYPE html>
+    <html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <script src=" client.js" type=" text/javascript "></script>
+        <script src=" serverstub.js" type="text/javascript"></script>
+        <link href="client.css" type="text/css" rel="stylesheet">
+        <script id="test1" type="text/view">test1</script>
+        <script id="test2" type="text/view">test2</script>
+        <script id="test2" type="text/view">test3</script>
+
+
+        <title> HomePage</title>
+    </head>
+    <body>
+        
     
-  
 
 
-<div class="center">
-    <nav>
-        <label class="logo"> Twidder</label>
-       <li id="homeicon"><a> HomePage </a></li>  
-       <li id="browseicon">  <a class="Tabs"> Browse </a></li>  
-       <li id="SettingsIcon" > <a class="Tabs"> Setting</a></li>  
-    </nav>
-</div>
+    <div >
+        <nav>
+            <label class="logo"> Twidder</label>
 
-<div class="MainDisplay">
-    <div id="homepage"></div>
-    <div id="Browse"></div>
-    <div id="Setting"></div>
+            <ul>
+        <li id="homeicon" onclick="clickTab('home')"><a> HomePage </a></li>  
+        <li id="browseicon" onclick="clickTab('browse')"   >  <a > Browse </a></li>  
+        <li id="SettingsIcon" onclick="clickTab('settings')" > <a > Settings</a></li>  
+            </ul>
 
+        </nav>
+    </div>
 
-
-
-
-</div>
+    <div id="ProfileDisplay" class="MainDisplay">
+        
+ THIS IS JUST FOR TEST 
 
 
 
 
+    </div>
 
 
 
 
-    
-</body>
-</html>
+
+
+
+
+        
+    </body>
+    </html>
