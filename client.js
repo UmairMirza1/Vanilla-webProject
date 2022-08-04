@@ -12,6 +12,8 @@ window.onload = function () {
 
   const maindiv = document.getElementById("maindiv");
   const welcomeview = document.getElementById("welcomeView");
+  const clientView = document.getElementById("clientView");
+  
   maindiv.innerHTML = welcomeview.innerHTML;
   
 
@@ -26,6 +28,7 @@ onsignin = function (e) {
 
   e.preventDefault();
   var token;
+  
   const loginform = document.getElementById("loginform");
   const email = loginform.email.value;
   const password = loginform.password.value;
@@ -76,3 +79,5 @@ onsignup = function () {
 
 
 }
+
+document.getElementById("home").addEventListener("click", display);
