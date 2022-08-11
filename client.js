@@ -49,7 +49,9 @@
           
           // user ko login krana hai idher 
           window.localStorage.setItem('token', response.data);
-          maindiv.innerHTML=us
+
+
+          maindiv.innerHTML=userprofile.innerHTML;
           
           
         }
@@ -102,6 +104,14 @@
             'messages': []
           };
           const response = serverstub.signUp(user);
+
+          if(!response.success){
+
+            error.innerText(response.message);
+          }
+          else{
+            window.alert("you can login now ")
+          }
 
 
           
