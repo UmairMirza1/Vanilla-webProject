@@ -154,3 +154,22 @@ color: white;
 
 }
 
+.home{
+    display: block;
+    width: 1200px;
+height: 700px;
+}
+
+.browse{
+
+    display: none;
+    width: 1200px;
+    height: 700px;
+}
+
+.setting{
+
+display: none;
+width: 1200px;
+height: 700px;
+}

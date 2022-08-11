@@ -93,6 +93,100 @@
 <body>
     <div id="maindiv" class="maindiv">
 
+        <div>
+            <img src="wimage.png" alt="twidder">
+        </div>
+
+
+
+        <div class="secondarybox">
+
+            <div class="login-container">
+
+                
+            <form id="loginform" class=" vertical" method="post" onsubmit="onsignin(event)">
+               
+                <div id="loginerror" class="error"></div>
+                <h1> Login Here </h1>
+                    <ul>
+                        <li> <label> Email</label>
+                            <input type="email" id="email" name="email" required>
+                        </li>
+                        <li> <label> Password</label>
+                            <input type="text" id="password" name="password" required>
+
+                           
+                        </li>
+                        <button type="submit">Login</button>
+                    </ul>
+                    </form>
+
+            </div>
+
+            <div class="signup-container">
+               
+
+                <form id="signupform" class="vertical" method="post" onsubmit="onsignup()">
+                    <div id="signuperror"></div>
+                    <h1> Sign up Here </h1>
+
+                    <ul>
+                        <li>
+                            <label> Email</label>
+                            <input type="text" id="username" required>
+                        </li>
+                        <li>
+                            <label> First Name</label>
+                            <input type="text" id="firstName" required>
+                        </li>
+                        <li>
+                            <label> Family Name</label>
+                            <input type="text" id="familyName" required>
+                        </li>
+
+                        <li>
+                            <label> Password</label>
+                            <input type="text" id="password" required>
+                        </li>
+
+                        <li>
+                            <label> Repeat_Password</label>
+                            <input type="text" id="repeatPassword" required>
+                        </li>
+
+                        <li>
+                            <label> Select gender</label>
+                            <select id="gender" name="cars" required>
+                                
+                                <option value="male">chad</option>
+                                <option value="woman">Wahman</option>
+                               
+                              </select>
+                        </li>
+
+                        <li>
+                            <label> City</label>
+                            <input type="text" id="city" required>
+                        </li>
+                        <li>
+                            <label> Country</label>
+                            <input type="text" id="country" required>
+                        </li>
+
+                         <button style="align-self:left ;" type="submit">SignUp</button>
+                        
+                    </ul>
+                </form>
+            </div>
+        
+        
+        
+        </div>
+
+
+
+
+
     
     </div>
 
