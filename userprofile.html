@@ -91,7 +91,8 @@
         </script>
         <script id="test1" type="text/view">test1</script>
         <script id="test2" type="text/view">test2</script>
-        <script id="test3" type="text/view">test3</script>
+        <script id="test3" type="text/view"> 
+              </script>
 
 
         <title> HomePage</title>
@@ -116,11 +117,64 @@
 
     <div id="ProfileDisplay" class="MainDisplay">
         
-                THIS IS JUST FOR TEST 
+                -----
             
             <div  id="hometab"     class="home"> HOME </div>
+
+
+
+
+
+
+
+            
             <div  id="browsetab"   class="browse">  BROWSE</div>
-            <div  id="settingstab"    class="setting">settings </div>
+
+
+
+
+
+
+            <div  id="settingstab"    class="setting"> <div class="maindiv">
+        
+                <div class="Password change">
+                    
+                    <form id="passChangeForm" class=" vertical" method="post" onsubmit="changePasword(string)">
+                       
+                        <div id="passChangeerror" class="error"></div>
+                        <h1> Change Password </h1>
+                            <ul>
+                                <li> <label> Old Password</label>
+                                    <input  id="OldPassword" name="Password" placeholder="OldPassword" required>
+                                </li>
+                                <p>     </p>
+                                <li> <label>  New Password</label>
+                                    <input type="text" id="newpassword" name="password" required>
+        
+                                   
+                                </li>
+        
+                                <li> <label>  Repeat New Password</label>
+                                    <input type="text" id="repNewpassword" name="password" required>
+        
+                                   
+                                </li>
+                                <button style="float: right ;" type="submit">changePassword</button>
+                            </ul>
+                            </form>
+        
+                            <div class="Signout">
+        
+                                <button onclick="signout"> SignOut</button>
+                      
+                            </div>
+        
+        
+                </div>
+        
+              
+        
+            </div> </div>
 
 
 

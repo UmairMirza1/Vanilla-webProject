@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="client.css" type="text/css" rel="stylesheet">
+    <title>Document</title>
+</head>
+<body>
+    
+    <div class="maindiv">
+
+        <div class="Password change">
+            
+            <form id="passChangeForm" class=" vertical" method="post" onsubmit="changePasword(string)">
+               
+                <div id="passChangeerror" class="error"></div>
+                <h1> changePasword </h1>
+                    <ul>
+                        <li> <label> Old Password</label>
+                            <input  id="OldPassword" name="Password" placeholder="OldPassword" required>
+                        </li>
+                        <p>     </p>
+                        <li> <label>  New Password</label>
+                            <input type="text" id="newpassword" name="password" required>
+
+                           
+                        </li>
+
+                        <li> <label>  Repeat New Password</label>
+                            <input type="text" id="repNewpassword" name="password" required>
+
+                           
+                        </li>
+                        <button style="float: right ;" type="submit">changePassword</button>
+                    </ul>
+                    </form>
+
+                    <div class="Signout">
+
+                        <button onclick="signout"> SignOut</button>
+              
+                    </div>
+
+
+        </div>
+
+      
+
+    </div>
+
+
+
+
+</body>
+</html>
