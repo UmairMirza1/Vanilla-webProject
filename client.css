@@ -195,7 +195,7 @@ line-height: 80px;
 
 .MainDisplay{
 
-display: block;
+display: flex;
 margin:auto;
 width: 1200px;
 height: 700px;
@@ -206,10 +206,46 @@ color: white;
 }
 
 .home{
-    display: block;
-    width: 1200px;
+display: block;
+width: 1200px;
 height: 700px;
 }
+
+.hometab{
+display: flex;
+flex-direction: row;
+
+}
+.userInfo{
+   
+    border: 3px solid rgb(0, 0, 0);
+    margin-left: 30px;
+    width: 50%;
+    height: 50%;
+        
+}
+.infolist{
+
+    
+}
+
+
+
+.messageWall{
+   
+    border: 3px solid rgb(0, 0, 0);
+    width: 50%;
+  
+    align-items: center;    
+
+}
+.secondCont{
+
+    display: flex;
+    flex-direction: column;
+
+}
+
 
 .browse{
 
@@ -224,3 +260,4 @@ display: none;
 width: 1200px;
 height: 700px;
 }
+
